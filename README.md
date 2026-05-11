@@ -96,3 +96,23 @@ Initial supply minted during deployment:
 100000000×10
 18
 = 100 million tokens with 18 decimals.
+
+# Mint Burn Blacklist
+Main Functions
+- ERC20 Standard Functions<br>
+- Function	Description<br>
+- transfer()	Send tokens<br>
+- approve()	Approve spender<br>
+- transferFrom()	Transfer using allowance<br>
+- balanceOf()	Check balance<br>
+- allowance()	Check allowance<br>
+- totalSupply()	Total token supply<br>
+
+# Additional Features
+✅ Mintable<br>
+✅ Burnable<br>
+✅ Blacklist system<br>
+✅ Ownable<br>
+✅ Receive native coin<br>
+✅ Custom decimals (8)<br>
+✅ Infinite allowance support<br>
