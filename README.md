@@ -71,12 +71,12 @@ Function	Description
 
 ## Internal Functions
 Function	Purpose
-_transfer()	Handles transfers<br>
-_update()	Updates balances<br>
-_mint()	Creates tokens<br>
-_burn()	Burns tokens<br>
-_approve()	Sets allowance<br>
-_spendAllowance()	Reduces allowance<br>
+- _transfer()	Handles transfers<br>
+- _update()	Updates balances<br>
+- _mint()	Creates tokens<br>
+- _burn()	Burns tokens<br>
+- _approve()	Sets allowance<br>
+- _spendAllowance()	Reduces allowance<br>
 Functions NOT Included<br>
 
 # This contract does NOT include:
