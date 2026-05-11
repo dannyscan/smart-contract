@@ -50,7 +50,7 @@ Minted once during deployment only.
 ## DAN Burn Contract
 The DAN20 contract includes the following main functions.
 
-##Public / External Functions
+## Public / External Functions
 Function	Description
 - name()	Returns the token name<br>
 - symbol()	Returns the token symbol<br>
@@ -69,7 +69,7 @@ Function	Description
 - rescueBalance(address)	Withdraws native coin<br>
 - rescueToken(address,address)	Withdraws tokens stuck in contract<br>
 
-##Internal Functions
+## Internal Functions
 Function	Purpose
 _transfer()	Handles transfers<br>
 _update()	Updates balances<br>
