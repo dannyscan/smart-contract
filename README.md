@@ -1,20 +1,20 @@
 ## DAN Basic Smart Contract
 Public / External Functions
 Function	Description
-name()	Returns the token name
-symbol()	Returns the token symbol
-decimals()	Returns token decimals
-totalSupply()	Returns total token supply
-balanceOf(address)	Returns wallet balance
-transfer(address,uint256)	Transfers tokens
-allowance(address,address)	Checks allowance
-approve(address,uint256)	Approves token allowance
-transferFrom(address,address,uint256)	Transfers tokens using allowance
-owner()	Returns contract owner
-transferOwnership(address)	Transfers ownership
-renounceOwnership()	Renounces ownership
-rescueBalance(address)	Withdraws native coins from contract
-rescueToken(address,address)	Withdraws ERC20 tokens sent to contract
+- name()	Returns the token name<br>
+- symbol()	Returns the token symbol<br>
+- decimals()	Returns token decimals<br>
+- totalSupply()	Returns total token supply<br>
+- balanceOf(address)	Returns wallet balance<br>
+- transfer(address,uint256)	Transfers tokens<br>
+- allowance(address,address)	Checks allowance<br>
+- approve(address,uint256)	Approves token allowance<br>
+- transferFrom(address,address,uint256)	Transfers tokens using allowance<br>
+- owner()	Returns contract owner<br>
+- transferOwnership(address)	Transfers ownership<br>
+- renounceOwnership()	Renounces ownership<br>
+- rescueBalance(address)	Withdraws native coins from contract<br>
+- rescueToken(address,address)	Withdraws ERC20 tokens sent to contract<br>
 
 # Internal Functions
 Function	Description<br>
@@ -52,22 +52,22 @@ The DAN20 contract includes the following main functions.
 
 ##Public / External Functions
 Function	Description
-name()	Returns the token name<br>
-symbol()	Returns the token symbol<br>
-decimals()	Returns the token decimals<br>
-totalSupply()	Returns total token supply<br>
-balanceOf(address)	Returns wallet token balance<br>
-transfer(address,uint256)	Transfers tokens<br>
-approve(address,uint256)	Approves allowance<br>
-allowance(address,address)	Returns allowance amount<br>
-transferFrom(address,address,uint256)	Transfers using allowance<br>
-owner()	Returns contract owner<br>
-transferOwnership(address)	Transfers ownership<br>
-renounceOwnership()	Renounces ownership<br>
-burn(uint256)	Burns own tokens<br>
-burnFrom(address,uint256)	Burns tokens using allowance<br>
-rescueBalance(address)	Withdraws native coin<br>
-rescueToken(address,address)	Withdraws tokens stuck in contract<br>
+- name()	Returns the token name<br>
+- symbol()	Returns the token symbol<br>
+- decimals()	Returns the token decimals<br>
+- totalSupply()	Returns total token supply<br>
+- balanceOf(address)	Returns wallet token balance<br>
+- transfer(address,uint256)	Transfers tokens<br>
+- approve(address,uint256)	Approves allowance<br>
+- allowance(address,address)	Returns allowance amount<br>
+- transferFrom(address,address,uint256)	Transfers using allowance<br>
+- owner()	Returns contract owner<br>
+- transferOwnership(address)	Transfers ownership<br>
+- renounceOwnership()	Renounces ownership<br>
+- burn(uint256)	Burns own tokens<br>
+- burnFrom(address,uint256)	Burns tokens using allowance<br>
+- rescueBalance(address)	Withdraws native coin<br>
+- rescueToken(address,address)	Withdraws tokens stuck in contract<br>
 
 ##Internal Functions
 Function	Purpose
