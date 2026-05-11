@@ -17,31 +17,31 @@ rescueBalance(address)	Withdraws native coins from contract
 rescueToken(address,address)	Withdraws ERC20 tokens sent to contract
 
 # Internal Functions
-Function	Description
-_transfer()	Internal transfer logic
-_update()	Updates balances and supply
-_mint()	Mints tokens
-_approve()	Sets allowance
-_spendAllowance()	Spends allowance
+Function	Description<br>
+_transfer()	Internal transfer logic<br>
+_update()	Updates balances and supply<br>
+_mint()	Mints tokens<br>
+_approve()	Sets allowance<br>
+_spendAllowance()	Spends allowance<br>
 
 # Functions Not Included
 
-❌ No additional mint function after deployment
-❌ No burn function
-❌ No pause function
-❌ No blacklist system
-❌ No tax mechanism
-❌ No hidden backdoor
-❌ No wallet freeze function
+❌ No additional mint function after deployment<br>
+❌ No burn function<br>
+❌ No pause function<br>
+❌ No blacklist system<br>
+❌ No tax mechanism<br>
+❌ No hidden backdoor<br>
+❌ No wallet freeze function<br>
 
 # Contract Features
 
-✅ Fixed Supply
-✅ Ownership System
-✅ ERC20 Standard
-✅ Rescue Native Coin
-✅ Rescue ERC20 Tokens
-✅ Compatible with DEXs, Wallets, and Explorers
+✅ Fixed Supply<br>
+✅ Ownership System<br>
+✅ ERC20 Standard<br>
+✅ Rescue Native Coin<br>
+✅ Rescue ERC20 Tokens<br>
+✅ Compatible with DEXs, Wallets, and Explorers<br>
 
 Initial Supply
 100,000,000 Tokens
